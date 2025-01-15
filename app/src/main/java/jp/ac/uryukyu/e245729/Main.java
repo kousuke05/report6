@@ -19,7 +19,7 @@ public class Main {
         int numSubjects = scanner.nextInt();
         int[] scores = new int[numSubjects];
         for (int i = 0; i < numSubjects; i++){
-            System.out.print("科目" + (i + 1) + " の得点を入力してくださ: ");
+            System.out.print("科目" + (i + 1) + " の得点を入力してください: ");
             scores[i] = scanner.nextInt();
         }
        
