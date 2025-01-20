@@ -3,6 +3,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * 判定ソフトを動かすためのクラス
+ */
+
 
 
 public class Main {

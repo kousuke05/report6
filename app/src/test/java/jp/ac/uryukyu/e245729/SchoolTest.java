@@ -11,9 +11,10 @@ class SchoolTest {
         // Arrange
         String name = "Sample School";
         int requiredScore = 70;
+        int requiredGrade = 100;
 
         // Act
-        School school = new School(name, requiredScore);
+        School school = new School(name, requiredScore, requiredGrade);
 
         // Assert
         assertEquals(name, school.name, "The school name should match the constructor input.");

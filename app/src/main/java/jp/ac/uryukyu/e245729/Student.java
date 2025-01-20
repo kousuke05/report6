@@ -12,6 +12,7 @@ class Student{
         this.grades = grade;
         this.totalScore = calculateTotalScore();
     }
+    
     public String getName() {
         return name;
     }
